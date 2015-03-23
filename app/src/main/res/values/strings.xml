@@ -6,4 +6,15 @@
     <string name="btn_swipe">Swipe (viewpager)</string>
     <string name="btn_tab">Tabs (viewpager)</string>
     <string name="btn_sliding">SlidingLayout</string>
+    <string name="title_activity_tabs">Tabs Activity</string>
+
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="text_tabs">Hello moy</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

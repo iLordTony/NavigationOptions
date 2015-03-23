@@ -1,5 +1,6 @@
 package com.ilordtony.navigationoptions;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -20,19 +21,21 @@ public class MainActivity extends ActionBarActivity {
         Log.d(TAG, "onCreate");
     }
 
-    public void onClickButtonSwipe(View view){
-        Log.d(TAG, "onClickButtonSwipe");
-        Toast.makeText(this, "onClickButtonSwipe", Toast.LENGTH_SHORT).show();
-    }
-
     public void onClickButtonTab(View view){
         Log.d(TAG, "onClickButtonTab");
         Toast.makeText(this, "onClickButtonTab", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, TabsActivity.class);
+        startActivity(intent);
     }
 
     public void onClickButtonSliding(View view){
         Log.d(TAG, "onClickButtonSliding");
         Toast.makeText(this, "onClickButtonSliding", Toast.LENGTH_SHORT).show();
+    }
+
+    public void onClickButtonSwipe(View view){
+        Log.d(TAG, "onClickButtonSwipe");
+        Toast.makeText(this, "onClickButtonSwipe", Toast.LENGTH_SHORT).show();
     }
 
 }

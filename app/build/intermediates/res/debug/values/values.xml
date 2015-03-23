@@ -190,7 +190,13 @@
     <string name="btn_sliding">SlidingLayout</string>
     <string name="btn_swipe">Swipe (viewpager)</string>
     <string name="btn_tab">Tabs (viewpager)</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_tabs">Hello moy</string>
     <string name="text_title">Selecciona el tipo de navegacion que quieres ver</string>
+    <string name="title_activity_tabs">Tabs Activity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
     <!-- From: file:/C:/Users/USER/Documents/Git/NavigationOptions/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>

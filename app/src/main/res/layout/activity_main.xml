@@ -17,47 +17,47 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn_swipe"
-        android:id="@+id/btn_swipe"
-        android:layout_above="@+id/btn_tab"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="84dp"
-        android:onClick="onClickButtonSwipe"
-        android:elevation="3dp"
-        android:background="@color/accent_color"
-        android:textAllCaps="false"
-        android:textColor="@color/text_button"
-        android:textSize="20sp"
-        android:padding="5dp"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/btn_tab"
         android:id="@+id/btn_tab"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
         android:onClick="onClickButtonTab"
         android:elevation="3dp"
         android:background="@color/accent_color"
         android:textAllCaps="false"
         android:textColor="@color/text_button"
         android:textSize="20sp"
-        android:padding="5dp"/>
+        android:padding="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/text_title"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_sliding"
         android:id="@+id/btn_sliding"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="76dp"
         android:onClick="onClickButtonSliding"
         android:background="@color/accent_color"
         android:textAllCaps="false"
         android:textColor="@color/text_button"
         android:textSize="20sp"
-        android:padding="5dp"/>
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_swipe"
+        android:id="@+id/btn_swipe"
+        android:onClick="onClickButtonSwipe"
+        android:elevation="3dp"
+        android:background="@color/accent_color"
+        android:textAllCaps="false"
+        android:textColor="@color/text_button"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp" />
 
 </RelativeLayout>
