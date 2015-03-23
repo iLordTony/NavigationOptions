@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Navigation Options</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="text_title">Selecciona el tipo de navegacion que quieres ver</string>
+    <string name="btn_swipe">Swipe (viewpager)</string>
+    <string name="btn_tab">Tabs (viewpager)</string>
+    <string name="btn_sliding">SlidingLayout</string>
+</resources>
