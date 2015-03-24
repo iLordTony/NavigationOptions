@@ -1,12 +1,12 @@
 package com.ilordtony.navigationoptions.adapters;
 
-import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.ilordtony.navigationoptions.R;
 import com.ilordtony.navigationoptions.fragments.FirstFragment;
+import com.ilordtony.navigationoptions.fragments.SecondFragment;
+import com.ilordtony.navigationoptions.fragments.ThirdFragment;
 
 import java.util.ArrayList;
 
@@ -15,8 +15,14 @@ import java.util.ArrayList;
  */
 public class CustomPagerAdapter extends FragmentStatePagerAdapter {
     ArrayList<String> titles;
+    Fragment[] fragments;
     public CustomPagerAdapter(FragmentManager fm, ArrayList<String> titles) {
         super(fm);
+        fragments = new Fragment[]{
+                new FirstFragment(),
+                new SecondFragment(),
+                new ThirdFragment()
+        };
         this.titles = titles;
     }
 
@@ -24,13 +30,13 @@ public class CustomPagerAdapter extends FragmentStatePagerAdapter {
     public Fragment getItem(int position) {
         // getItem is called to instantiate the fragment for the given page.
         // Return a PlaceholderFragment (defined as a static inner class below).
-        return FirstFragment.newInstance(position + 1);
+        return fragments[position];
     }
 
     @Override
     public int getCount() {
         // Show 3 total pages.
-        return 3;
+        return fragments.length;
     }
 
     @Override

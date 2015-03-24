@@ -13,8 +13,9 @@
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
 
-    <string name="text_tabs">Hello moy</string>
+    <string name="text_frag1">Hello moy</string>
+    <string name="text_frag2">¿Cómo estamos?</string>
 
 <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_frag3">Aaaah, mamados wey</string>
 </resources>

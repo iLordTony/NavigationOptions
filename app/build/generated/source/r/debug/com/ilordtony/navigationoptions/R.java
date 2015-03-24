@@ -1329,7 +1329,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f09002e;
         public static final int action_mode_bar_stub=0x7f09002d;
         public static final int action_mode_close_button=0x7f090020;
-        public static final int action_settings=0x7f090045;
+        public static final int action_settings=0x7f090044;
         public static final int activity_chooser_view_content=0x7f090021;
         public static final int always=0x7f090016;
         public static final int beginning=0x7f090013;
@@ -1372,7 +1372,6 @@ containing a value of this type.
         public static final int search_plate=0x7f090039;
         public static final int search_src_text=0x7f09003a;
         public static final int search_voice_btn=0x7f09003e;
-        public static final int section_label=0x7f090044;
         public static final int shortcut=0x7f09002a;
         public static final int showCustom=0x7f09000f;
         public static final int showHome=0x7f090010;
@@ -1418,8 +1417,9 @@ containing a value of this type.
         public static final int activity_main=0x7f040016;
         public static final int activity_tabs=0x7f040017;
         public static final int fragment_first=0x7f040018;
-        public static final int fragment_tabs=0x7f040019;
-        public static final int support_simple_spinner_dropdown_item=0x7f04001a;
+        public static final int fragment_second=0x7f040019;
+        public static final int fragment_third=0x7f04001a;
+        public static final int support_simple_spinner_dropdown_item=0x7f04001b;
     }
     public static final class menu {
         public static final int menu_main=0x7f0d0000;
@@ -1450,13 +1450,14 @@ containing a value of this type.
         public static final int btn_sliding=0x7f0b0012;
         public static final int btn_swipe=0x7f0b0013;
         public static final int btn_tab=0x7f0b0014;
-        public static final int hello_blank_fragment=0x7f0b0015;
-        public static final int text_tabs=0x7f0b0016;
-        public static final int text_title=0x7f0b0017;
-        public static final int title_activity_tabs=0x7f0b0018;
-        public static final int title_section1=0x7f0b0019;
-        public static final int title_section2=0x7f0b001a;
-        public static final int title_section3=0x7f0b001b;
+        public static final int text_frag1=0x7f0b0015;
+        public static final int text_frag2=0x7f0b0016;
+        public static final int text_frag3=0x7f0b0017;
+        public static final int text_title=0x7f0b0018;
+        public static final int title_activity_tabs=0x7f0b0019;
+        public static final int title_section1=0x7f0b001a;
+        public static final int title_section2=0x7f0b001b;
+        public static final int title_section3=0x7f0b001c;
     }
     public static final class style {
         public static final int Animation_AppCompat_DropDownUp=0x7f0c0000;
