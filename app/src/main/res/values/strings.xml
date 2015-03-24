@@ -6,16 +6,20 @@
     <string name="btn_swipe">Swipe (viewpager)</string>
     <string name="btn_tab">Tabs (viewpager)</string>
     <string name="btn_sliding">SlidingLayout</string>
+
     <string name="title_activity_tabs">Tabs Activity</string>
+    <string name="title_activity_swipe">Swipe Activity</string>
 
 
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
 
-    <string name="text_frag1">Hello moy</string>
+    <string name="text_frag1">-Hello moy</string>
     <string name="text_frag2">¿Cómo estamos?</string>
+    <string name="text_frag3">-Aaaah, mamados wey</string>
+    <string name="title_activity_sliding_layout">SlidingLayoutActivity</string>
 
-<!-- TODO: Remove or change this placeholder text -->
-    <string name="text_frag3">Aaaah, mamados wey</string>
+    <string name="hello_world">Hello world!</string>
+
 </resources>

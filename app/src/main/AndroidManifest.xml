@@ -20,6 +20,14 @@
             android:name=".TabsActivity"
             android:label="@string/title_activity_tabs" >
         </activity>
+        <activity
+            android:name=".SwipeActivity"
+            android:label="@string/title_activity_swipe" >
+        </activity>
+        <activity
+            android:name=".SlidingLayoutActivity"
+            android:label="@string/title_activity_sliding_layout" >
+        </activity>
     </application>
 
 </manifest>

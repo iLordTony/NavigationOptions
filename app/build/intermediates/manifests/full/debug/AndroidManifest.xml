@@ -26,6 +26,14 @@
             android:name="com.ilordtony.navigationoptions.TabsActivity"
             android:label="@string/title_activity_tabs" >
         </activity>
+        <activity
+            android:name="com.ilordtony.navigationoptions.SwipeActivity"
+            android:label="@string/title_activity_swipe" >
+        </activity>
+        <activity
+            android:name="com.ilordtony.navigationoptions.SlidingLayoutActivity"
+            android:label="@string/title_activity_sliding_layout" >
+        </activity>
     </application>
 
 </manifest>

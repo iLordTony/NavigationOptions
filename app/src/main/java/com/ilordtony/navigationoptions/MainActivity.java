@@ -31,11 +31,15 @@ public class MainActivity extends ActionBarActivity {
     public void onClickButtonSliding(View view){
         Log.d(TAG, "onClickButtonSliding");
         Toast.makeText(this, "onClickButtonSliding", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, SlidingLayoutActivity.class);
+        startActivity(intent);
     }
 
     public void onClickButtonSwipe(View view){
         Log.d(TAG, "onClickButtonSwipe");
         Toast.makeText(this, "onClickButtonSwipe", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, SwipeActivity.class);
+        startActivity(intent);
     }
 
 }

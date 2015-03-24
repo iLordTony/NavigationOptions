@@ -1,11 +1,23 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.ilordtony.navigationoptions.fragments.SecondFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
-        android:text="@string/text_frag2" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_frag1"
+        android:id="@+id/text_frag1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_frag2"
+        android:id="@+id/text_frag2"
+        android:layout_below="@+id/text_frag1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-</FrameLayout>
+
+
+</RelativeLayout>
 <!-- From: file:/C:/Users/USER/Documents/Git/NavigationOptions/app/src/main/res/layout/fragment_second.xml -->

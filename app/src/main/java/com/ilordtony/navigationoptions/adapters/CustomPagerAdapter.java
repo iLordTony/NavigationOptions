@@ -1,5 +1,6 @@
 package com.ilordtony.navigationoptions.adapters;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
@@ -16,6 +17,7 @@ import java.util.ArrayList;
 public class CustomPagerAdapter extends FragmentStatePagerAdapter {
     ArrayList<String> titles;
     Fragment[] fragments;
+    private Context context;
     public CustomPagerAdapter(FragmentManager fm, ArrayList<String> titles) {
         super(fm);
         fragments = new Fragment[]{
@@ -25,6 +27,17 @@ public class CustomPagerAdapter extends FragmentStatePagerAdapter {
         };
         this.titles = titles;
     }
+    public CustomPagerAdapter(FragmentManager fm, ArrayList<String> titles, Context context) {
+        super(fm);
+        fragments = new Fragment[]{
+                new FirstFragment(),
+                new SecondFragment(),
+                new ThirdFragment()
+        };
+        this.titles = titles;
+        this.context = context;
+    }
+
 
     @Override
     public Fragment getItem(int position) {
