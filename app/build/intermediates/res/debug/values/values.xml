@@ -198,9 +198,9 @@
     <string name="title_activity_sliding_layout">SlidingLayoutActivity</string>
     <string name="title_activity_swipe">Swipe Activity</string>
     <string name="title_activity_tabs">Tabs Activity</string>
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="title_section1">Seccion 1</string>
+    <string name="title_section2">Seccion 2</string>
+    <string name="title_section3">Seccion 3</string>
     <!-- From: file:/C:/Users/USER/Documents/Git/NavigationOptions/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>

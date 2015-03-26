@@ -240,6 +240,7 @@ int color secondary_text_default_material_dark 0x7f07002e
 int color secondary_text_default_material_light 0x7f07002f
 int color secondary_text_disabled_material_dark 0x7f070030
 int color secondary_text_disabled_material_light 0x7f070031
+int color selector 0x7f07003e
 int color switch_thumb_normal_material_dark 0x7f070032
 int color switch_thumb_normal_material_light 0x7f070033
 int color text_button 0x7f070034

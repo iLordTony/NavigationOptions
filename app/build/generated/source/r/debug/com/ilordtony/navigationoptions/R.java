@@ -1202,6 +1202,7 @@ containing a value of this type.
         public static final int secondary_text_default_material_light=0x7f07002f;
         public static final int secondary_text_disabled_material_dark=0x7f070030;
         public static final int secondary_text_disabled_material_light=0x7f070031;
+        public static final int selector=0x7f07003e;
         public static final int switch_thumb_normal_material_dark=0x7f070032;
         public static final int switch_thumb_normal_material_light=0x7f070033;
         public static final int text_button=0x7f070034;
