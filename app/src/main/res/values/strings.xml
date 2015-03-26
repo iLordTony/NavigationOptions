@@ -11,9 +11,9 @@
     <string name="title_activity_swipe">Swipe Activity</string>
 
 
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="title_section1">Seccion 1</string>
+    <string name="title_section2">Seccion 2</string>
+    <string name="title_section3">Seccion 3</string>
 
     <string name="text_frag1">-Hello moy</string>
     <string name="text_frag2">¿Cómo estamos?</string>
