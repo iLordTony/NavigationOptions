@@ -36,6 +36,7 @@ public class TabsActivity extends ActionBarActivity implements ActionBar.TabList
         // Set up the action bar.
         final ActionBar actionBar = getSupportActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+
         titles = new ArrayList<String>();
         titles.add(getString(R.string.title_section1));
         titles.add(getString(R.string.title_section2));

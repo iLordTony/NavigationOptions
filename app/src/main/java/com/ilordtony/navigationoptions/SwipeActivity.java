@@ -32,11 +32,11 @@ public class SwipeActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_swipe);
+
         titles = new ArrayList<String>();
         titles.add(getString(R.string.title_section1));
         titles.add(getString(R.string.title_section2));
         titles.add(getString(R.string.title_section3));
-
 
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.

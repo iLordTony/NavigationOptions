@@ -225,6 +225,7 @@ public class SlidingTabLayout extends HorizontalScrollView {
             if (i == mViewPager.getCurrentItem()) {
                 tabView.setSelected(true);
             }
+            //Estas dos lineas son para darle color y tamaño a los titulos del nav
             tabTitleView.setTextColor(getResources().getColorStateList(R.color.selector));
             tabTitleView.setTextSize(14);
         }

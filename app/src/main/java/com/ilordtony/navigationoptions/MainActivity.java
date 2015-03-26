@@ -20,7 +20,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         Log.d(TAG, "onCreate");
     }
-
+    //Los metodos necesarios para acceder a cada actividad
     public void onClickButtonTab(View view){
         Log.d(TAG, "onClickButtonTab");
         Toast.makeText(this, "onClickButtonTab", Toast.LENGTH_SHORT).show();
